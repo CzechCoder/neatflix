@@ -1,0 +1,12 @@
+.dialogContainer {
+  max-width: 440px;
+  height: 500px;
+  margin: 0 auto;
+  background: #f3f3f3;
+  color: black;
+}
+.dialogWrapper {
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 64px;
+}

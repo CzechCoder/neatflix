@@ -1,0 +1,28 @@
+.signupFormContainer {
+  text-align: center;
+  padding: 0 35px;
+}
+.signupFormTextWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin: 1rem auto 1rem;
+  max-width: 36.625rem;
+  gap: 10px;
+}
+.emailInput {
+  flex: 1 1 auto;
+  background: rgb(0 0 0 / 40%);
+}
+.buttonText {
+  text-transform: none;
+  margin-right: 0.3rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .signupFormTextWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+.loginContainer {
+  width: 100%;
+}
+.loginBackground {
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+.loginFormContainer {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+.loginFormFrame {
+  max-width: 450px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+.loginFormWrapper {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+.errorMessage {
+  background: #e87c03;
+  color: white;
+  padding: 10px 20px;
+  vertical-align: middle;
+  margin-top: 28px;
+  border-radius: 4px;
+}
+.credentialsContainer {
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: lightgray;
+}
+@media screen and (max-width: 600px) {
+  .loginFormContainer {
+    height: 100%;
+  }
+  .loginFormFrame {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .loginContainer {
+    height: 100vh;
+  }
+  .loginBackground {
+    height: 100%;
+  }
+}

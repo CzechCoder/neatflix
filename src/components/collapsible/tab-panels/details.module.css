@@ -1,0 +1,8 @@
+.detailsContainer {
+  color: gray;
+}
+.detailsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,16 @@
+.messageContainer {
+  box-sizing: border-box;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 8px;
+  flex-direction: column;
+  z-index: 51;
+  width: 100%;
+}

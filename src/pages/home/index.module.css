@@ -1,0 +1,19 @@
+.faqContainer {
+  min-height: auto;
+  padding: 4rem 0;
+  position: relative;
+}
+.faqWrapper {
+  max-width: 66%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.85rem;
+}
+@media screen and (max-width: 600px) {
+  .faqWrapper {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}

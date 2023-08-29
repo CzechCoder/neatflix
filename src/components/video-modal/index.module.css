@@ -1,0 +1,15 @@
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.modalWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}

@@ -1,0 +1,26 @@
+.randomMovieContainer {
+  width: 100%;
+  height: 650px;
+  color: white;
+  margin-bottom: 20px;
+}
+.gradientOverlay {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  background: rgb(0 0 0 / 45%);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0,
+    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.textWrapper {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  padding: 32px;
+  box-sizing: border-box;
+}

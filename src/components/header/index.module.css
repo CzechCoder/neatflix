@@ -1,0 +1,32 @@
+.headerContainerStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 5rem;
+}
+.mobileHeaderContainer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.headerLogoAndButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.headerButtons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

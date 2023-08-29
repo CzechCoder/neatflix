@@ -1,0 +1,20 @@
+.homeCardWrapper {
+  max-width: 66%;
+  margin: auto;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  gap: 50px;
+}
+.boxWrapper {
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 600px) {
+  .homeCardWrapper {
+    max-width: 100%;
+    padding: 0 24px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,8 @@
+.movieCard {
+  display: inline-block;
+  object-fit: contain;
+  cursor: pointer;
+  transition: all 0.5s;
+  scale: 1;
+  width: auto !important;
+}
